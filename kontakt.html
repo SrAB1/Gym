@@ -1,0 +1,93 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Home</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/javascript.js"></script>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/colorbox/colorbox/jquery.colorbox.js"></script>
+<link type="text/css" media="screen" rel="stylesheet" href="js/colorbox/example2/colorbox.css" />
+<script type="text/javascript">
+$(document).ready(function(){
+$('#map').colorbox();
+});
+</script>
+
+</head>
+
+<body onload="vreme()">
+<div id="centralniKontejner"><div id="headKontejner">
+ <div id="meni"> <span id="meniStavka"><a href="index.html">Home</a></span> <span id="meniStavka"><a href="teretana.html">Teretana</a></span> <span id="meniStavka"><a href="aerobic.html">Aerobic</a></span> <span id="meniStavka"><a href="preuzimanje.html">Preuzimanje</a></span> <span id="meniStavka"><a href="galerija.html">Galerija</a></span> <span id="meniStavka"><a href="kontakt.html">Kontakt</a></span> </div>
+    <div id="head"></div>
+  </div>
+  <div id="kontejner" style="height:795px">
+  <div id="desni">
+      <div id="modulKont">
+        <div id="naslovModula"></div>
+        <div id="modulSadrzaj">
+          <p></p>
+          &nbsp;
+        </div>
+      </div>
+      <div id="modulKont">
+        <div id="naslovModula">Mapa</div>
+        <div id="modulSadrzaj" style="padding-bottom:5px; text-align:center;"> <a href="images/map.jpg" id="map"><img src="images/mapica.png" width="167" height="140" id="mapa" /></a>&nbsp;</div>
+      </div>
+      
+    </div>
+    <div id="levi" style="height:538px"><br/>
+      <div id="modulSadrzaj" ><h1 >Kontakt</h1><br/>
+   
+     
+        <form onsubmit="return provera()" method="get" action="" name="forma">
+          <table width="560"  style="padding:5px; margin-left:40px">
+            <tr>
+              <td width="104" style="padding:5px">Ime i prezime:</td>
+              <td width="444" style="padding:3px"><input name="ime" class="unos"></td>
+            </tr>
+            <tr>
+              <td style="padding:5px">Pol:</td>
+              <td style="padding:5px">
+                <input type="radio" name="radio" id="m" value="m" />
+                <label for="m">Muski</label>                
+              <label for="pol">
+                <input type="radio" name="radio" id="z" value="z"  />
+             Zenski </label></td>
+            </tr>
+            <tr>
+              <td style="padding:5px">E-mail:</td>
+              <td style="padding:5px"><input name="email" class="unos"></td>
+            </tr>
+            <tr>
+              <td style="padding:5px">Poruku saljem radi:</td>
+              <td style="padding:5px"><select  name="svrha" class="unos" style="background:#C0DCE4;border:thin;">
+                  <option  value=""></option>
+                  <option value="Predlog">Davanja predloga</option>
+                  <option value="Pitanje">Pitanja</option>
+                 
+                  <option value="Drugo...">Nesto drugo...</option>
+                </select></td>
+            </tr>
+            <tr>
+              <td style="padding:20px ;padding-left:5px" valign="top">Vaša poruka:</td>
+              <td style="padding:20px; padding-left:5px" ><textarea class="unos" style="border-radius:3px; width:400px; height:150px; background:#C0DCE4; border:thin;"  cols="30" rows="15" name="poruka"></textarea></td>
+            </tr>
+            <tr>
+              <td colspan="2" align="center"><input name="submit" value="Po&#353;alji" type="submit">
+                <input  name="reset" value="Poni&#353;ti" type="reset"></td>
+            </tr>
+          </table>
+        </form>
+           
+      </div>
+    </div>
+  </div>
+  <div id="footer">Designed by Sale<img src="images/facebook.png" width="48" height="49" class="sredina" style="float:right; margin:-13px 20px 0px 0px">
+  
+  <img src="images/twitter.png".png" width="48" height="49" class="sredina" style="float:right; margin:-13px 5px 0px 20px">
+    <div id="txt"> </div>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,129 @@
+@charset "utf-8";
+a {
+	margin-top: 15px;
+	text-decoration: none;
+	color: white;
+}
+body {
+	background-image: url(images/bcg.jpg);
+}
+#headKontejner {
+}
+#centralniKontejner {
+	width: 940px;
+	margin: auto auto auto auto;
+	margin-top: 15px;
+	background: rgba(255,255,255,0.98)
+}
+#head {
+	height: 240px;
+	background-image: url(images/header.jpg);
+
+}
+#meni {
+	display: -webkit-box;
+	-webkit-box-pack: center;
+	-webkit-box-align: center;
+	font: bold 14px Arial;
+	width: 940px;
+	height: 60px;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(69,72,77,1)), color-stop(100%, rgba(0,0,0,1)));
+	background: -webkit-linear-gradient(top, rgba(69,72,77,1) 0%, rgba(0,0,0,1) 100%);
+}
+#meniStavka {
+	text-shadow: 0px 0px 11px rgba(51,51,51,1);
+	margin-left: 25px;
+}
+#meniStavka:hover {
+	text-shadow: 0px 0px 15px rgba(51,51,51,1);
+	opacity: 0.8;
+}
+#kontejner {
+	height: 730px;
+	width: 940px;
+}
+#footer {
+	text-align: center;
+	font-size: 12px;
+	padding-top: 15px;
+	margin-top: 15px;
+	height: 40px;
+	color: hsla(0,0%,80%,1);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(69,72,77,1)), color-stop(100%, rgba(0,0,0,1)));
+	background: -webkit-linear-gradient(top, rgba(69,72,77,1) 0%, rgba(0,0,0,1) 100%);
+}
+#desni {
+	float: left;
+	width: 240px;
+}
+#levi {
+	
+	margin-top: 20px;
+	float: left;
+	height: 500px;
+	width: 680px;
+	-moz-box-shadow: 0px 0px 7px 1px #999;
+	-webkit-box-shadow: 0px 0px 1px 1px #999;
+}
+#socijal {
+	margin-left: 17px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+#socijal:hover {
+	opacity: 0.6;
+}
+#modulKont {
+	margin: 20px;
+	width: 200px;
+	height: auto;
+	-moz-box-shadow: 0px 0px 7px 1px #999;
+	-webkit-box-shadow: 0px 0px 1px 1px #999;
+}
+#modulSadrzaj {
+	margin: 15px;
+	color: hsla(0,0%,0%,1);
+}
+INPUT.unos {
+	margin-bottom: 10px;
+	border-radius: 5px;
+border:thin;
+	background: #C0DCE4
+}
+#naslovModula {
+	display: -webkit-box;
+	-webkit-box-pack: center;
+	-webkit-box-align: center;
+	margin-bottom: 15px;
+	font-size: 14px;
+	float: left;
+	width: 200px;
+	color: white;
+	height: 25px;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(69,72,77,1)), color-stop(100%, rgba(0,0,0,1)));
+	background: -webkit-linear-gradient(top, rgba(69,72,77,1) 0%, rgba(0,0,0,1) 100%);
+}
+h1 {
+	margin: auto auto 30px 250px;
+	width: 3em;
+	color: hsla(0,0%,40%,1)
+}
+h3 {
+	color: hsla(0,0%,30%,1);
+}
+p.kontakt {
+margin: auto auto auto auto;
+	width: 27em;
+	color: hsla(0,0%,40%,1)
+}
+IMG.sredina {
+	display: block;
+	margin: auto auto auto auto;
+	border-radius: 5px
+}
+#galleria {
+	height: 320px;
+}
+
+#txt{float:left; margin-left:10px}
+.down:hover{opacity:0.5}
